@@ -1,6 +1,5 @@
 export function RepositoryItem(props){
   return(
-    <ul>
       <li>
           <strong>{ props.repository.name ?? 'Default' }</strong>
           <p>{props.repository.description}</p>
@@ -8,6 +7,5 @@ export function RepositoryItem(props){
             Acessar repositório
           </a>
         </li>
-    </ul>
   )
 }
